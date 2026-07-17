@@ -80,8 +80,5 @@ From the project's internal notes:
 - Visualize training metrics: loss vs. epoch, accuracy vs. epoch, confusion matrix
 - (Optional) Grad-CAM style explainability (XAI)
 
-## ⚠️ Security note
-
-While reviewing this repo, a **live-looking GitHub personal access token** was found committed in plain text inside `tasks.md`. Please revoke/regenerate that token in your GitHub settings (Settings → Developer settings → Personal access tokens) immediately and remove it from the file/history — treat it as compromised since it's been pushed to a public repo.
 
 Separately, the Unity project currently has build/IDE artifacts checked into git (e.g. `Library/`, `.vs/`, `il2cppOutput/`, `.plastic/`), which bloats the repo significantly. A `.gitignore` cleanup (removing these from tracking) is recommended as part of the broader repo cleanup you mentioned.
