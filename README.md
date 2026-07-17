@@ -2,6 +2,8 @@
 
 An interactive **VR/AR visualization of a Convolutional Neural Network (CNN)**. A Python backend runs a PyTorch CNN trained on MNIST digits, captures live layer activations, and streams them over a WebSocket to a Unity XR project, which renders the feature maps, convolution filters, and fully-connected layer graph as 3D objects a user can inspect in headset.
 
+
+Demo: https://drive.google.com/file/d/1SRDj7lyZuqPl0-F3RAaKHuo60uIuLeZs/view
 ## How it works
 
 ```
